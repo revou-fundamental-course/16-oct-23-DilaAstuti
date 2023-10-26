@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+    <link rel="stylesheet" href="./css/style.css" >
+    
+    
+</head>
+<body>
+    <header class="header">
+        <div class="nav-logo">
+            <img src="./assets/B50doHc0_400x400.jpg" alt="">
+        </div>
+        <nav class="nav">
+            <a class="nav-item">Home</a>
+            <a class="nav-item">Our Profile</a>
+            <a class="nav-item">Portopolio</a>
+            <a href="#message-us" class="nav-item">Message Us</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <div class="greetings">
+        <h2> Welcome to My Travel</h2>
+        <p>Eksplore Indonesia's diverse beauty, culture and adventure on Indonesia Travel </p>
+    </section>
+    <section class="headquarters">
+        <h1> Our headquarters</h1>
+        <div class="hq-items">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+
+    </section> 
+    <section id="message-us" class="form" onSubmit="validasi()">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <h1>Massage Us</h1>
+        <div class="form-left"</div>
+            <form>
+                <table>
+                <label for="nama">Nama :</label>
+                <input type="text" id="namaInput" placeholder="Nama">
+                <br><label for="tanggalLahirInput"> Tanggal Lahir :</label> 
+                <input type="date" id="tanggalLahirInput" placeholder="Tanggal">
+                <br><label for="jenisKelamin">Jenis Kelamin :</label>
+                <input type="radio" id="jenisKelamin" value="JenisKelamin">
+                <label for="lakiLaki"> Laki-laki</label>
+                <input type="radio" id="jenisKelamin" value="JenisKelamin">
+                <label for="perempuan"> Perempuan</label>
+                <br><label for="pesan"> Pesan :</label>
+                <input type="text" id="pesan" placeholder="Pesan">
+                <br><input type="submit" value="submit" onsubmit="validasi()">    
+            </table>   
+            </form>
+
+    </section>
+    <footer class="footer">
+        <center><p>Made by Astuti</p></center>
+        
+
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
